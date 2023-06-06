@@ -11,8 +11,12 @@
 <script>
   function askcode() {
     var ec = prompt('Enter the database passcode :')
-    if (ec not 'poo123') {
-      alert('hia!')
+    if (ec == 'poo123') {
+      alert('Correct')
+    }
+    else {
+      alert('Incorect')
+      window.location.reload()
     }
   }
 </script>
