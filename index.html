@@ -1,12 +1,15 @@
 <script>
-  cc = prompt("Enter the password :")
-  if (cc == "poo123") {
+  pb = prompt("Enter the password :")
+  if (pb == "poo123") {
     alert("correct")
   }
   else {
     alert("Incorrect")
     window.location.reload()
   }
+  function findfile() {
+    fc = prompt("Enter the code for the data you want to find :")
+    window.loacation.replace("https://p4wboysdatabase.github.io/secure/" + fc)
 </script>
 <html>
   <head>
@@ -18,7 +21,6 @@
     <title>SECURE-DATABASE</title>
     <body>
       <h1>DATABASE</h1>
-      <iframe bd="0" src="https://p4wboysdatabase.github.io/secure/0001"></iframe>
-      <iframe bd="0" src="https://p4wboysdatabase.github.io/secure/0003"></iframe>
+      <button onclick="findfile()">Find a page of data by entering the data code</button>
   </head>
 </html>
